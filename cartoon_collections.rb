@@ -25,7 +25,7 @@ def find_the_cheese(foods)
   foods.each do |y|
     if cheese_types.include?(y)
       return y
-    elsif cheese_types.include?(y)
+    elsif cheese_types.exclude?(y)
       nil
     end
   end
