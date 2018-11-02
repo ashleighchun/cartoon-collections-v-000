@@ -26,7 +26,7 @@ def find_the_cheese(foods)
     if cheese_types.include?(y)
       return y
     else
-      "No cheese!"
+      puts "No cheese!"
     end
   end
 end
