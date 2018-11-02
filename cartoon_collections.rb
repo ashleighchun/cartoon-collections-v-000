@@ -27,5 +27,5 @@ def find_the_cheese(foods)
       return y
     end
   end
-  nil
+  nil #t should be nil because typically when looping over an array and not finding something, the return value is nil
 end
