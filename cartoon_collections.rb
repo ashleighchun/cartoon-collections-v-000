@@ -25,8 +25,6 @@ def find_the_cheese(foods)
   foods.collect do |y|
     if cheese_types.include?(y)
       return y
-    else
-      "no cheese"
     end
   end
 end
